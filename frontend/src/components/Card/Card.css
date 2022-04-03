@@ -1,0 +1,175 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.card__bookmark-wrap {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  top: 24px;
+  right: 24px;
+  z-index: 4;
+}
+
+.card__bookmark-text {
+  background: #ffffff;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  padding: 5px 22px;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.card__bookmark-text_show {
+  opacity: 1;
+}
+
+.card__bookmark {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  background-image: url("../../images/icon-trending-bookmark.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: opacity 0.2s linear;
+}
+
+.card__bookmark_full {
+  background-image: url("../../images/bookmark-full-icon.png");
+}
+.card__bookmark:hover {
+  opacity: 0.6;
+}
+
+.card__img {
+  width: 100%;
+  height: 100%;
+  max-height: 174px;
+  border-radius: 8px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card__name {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+  /* Pure White */
+  color: #ffffff;
+  margin: 0;
+}
+
+.card__info-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+}
+
+.card__info {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 19px;
+  /* identical to box height */
+  /* Pure White */
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+  margin: 0;
+}
+
+.card__info-seperator {
+  display: block;
+  width: 3px;
+  height: 3px;
+  background-image: url("../../images/icon-seperator.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card__info-type {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.card__info-icon {
+  width: 12px;
+  height: 12px;
+  background-image: url("../../images/icon-category-movie.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card__title {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 30px;
+  /* Pure White */
+  color: #ffffff;
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .card__img {
+    max-height: 140px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .card__img {
+    max-height: 110px;
+  }
+  .card__name {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .card__bookmark-wrap {
+    top: 8px;
+    right: 8px;
+  }
+  .card__info {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .card__title {
+    font-size: 15px;
+    line-height: 19px;
+  }
+  .card__bookmark-text {
+    font-size: 12px;
+    padding: 3px 10px;
+  }
+}

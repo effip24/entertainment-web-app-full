@@ -1,0 +1,92 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation__link {
+  display: flex;
+  text-decoration: none;
+}
+
+.navigation__icon {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.navigation__icon_type_home {
+  background-image: url("../../images/icon-nav-home.svg");
+}
+.navigation__icon_type_home:hover {
+  background-image: url("../../images/icon-nav-home-hover.svg");
+  cursor: pointer;
+}
+
+.navigation__icon_type_movies {
+  background-image: url("../../images/icon-nav-movies.svg");
+}
+.navigation__icon_type_movies:hover {
+  background-image: url("../../images/icon-nav-movies-hover.svg");
+  cursor: pointer;
+}
+
+.navigation__icon_type_tv {
+  background-image: url("../../images/icon-nav-tv-series.svg");
+}
+.navigation__icon_type_tv:hover {
+  background-image: url("../../images/icon-nav-tv-hober.svg");
+  cursor: pointer;
+}
+
+.navigation__icon_type_bookmarked {
+  background-image: url("../../images/icon-nav-bookmark.svg");
+}
+.navigation__icon_type_bookmarked:hover {
+  background-image: url("../../images/icon-nav-bookmark-hover.svg");
+  cursor: pointer;
+}
+
+.navigation__icon_home {
+  background-image: url("../../images/icon-nav-home-full.svg");
+  pointer-events: none;
+}
+.navigation__icon_movies {
+  background-image: url("../../images/icon-category-movie.svg");
+  pointer-events: none;
+}
+.navigation__icon_tv {
+  background-image: url("../../images/icon-category-tv.svg");
+  pointer-events: none;
+}
+.navigation__icon_bookmark {
+  background-image: url("../../images/icon-bookmark-full.svg");
+  pointer-events: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .navigation__list {
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .navigation__icon {
+    width: 16px;
+    height: 16px;
+  }
+}

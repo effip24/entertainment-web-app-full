@@ -1,0 +1,102 @@
+.side-nav {
+  margin-right: 98px;
+  box-sizing: border-box;
+}
+
+.side-nav-container {
+  position: fixed;
+  top: 36px;
+  bottom: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: #161d2f;
+  border-radius: 20px;
+  padding: 32px 28px;
+  box-sizing: border-box;
+}
+
+.side-nav__logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 74px;
+}
+
+.side-nav__logo {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.side-nav__login-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.side-nav__login {
+  width: 32px;
+  height: 32px;
+  background-image: url("../../images/login-48.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.2s linear;
+}
+.side-nav__login:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.side-nav__login-label {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1024px) {
+  .side-nav {
+    margin-right: 0;
+  }
+  .side-nav-container {
+    flex-direction: row;
+    padding: 21px 16px;
+    position: relative;
+    top: 0;
+  }
+  .side-nav__logo-container {
+    flex-basis: 65%;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .side-nav-container {
+    border-radius: 0;
+    padding: 16px;
+  }
+  .side-nav__logo-container {
+    flex-basis: 50%;
+  }
+  .side-nav__logo {
+    width: 25px;
+    height: 20px;
+  }
+  .side-nav__login {
+    width: 16px;
+    height: 16px;
+  }
+  .side-nav__login-label {
+    font-size: 9px;
+  }
+}

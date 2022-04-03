@@ -1,0 +1,97 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 1440px;
+  gap: 40px;
+  padding-top: 32px;
+  box-sizing: border-box;
+}
+
+.trending {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  gap: 25px;
+  white-space: nowrap;
+}
+
+.recommended {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  gap: 32px;
+}
+
+.trending__title {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.5px;
+  /* Pure White */
+  color: #ffffff;
+  margin: 0;
+}
+
+.trending__list {
+  width: 100%;
+  max-width: 1280px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 280px);
+  display: flex;
+  overflow-x: auto;
+  gap: 40px;
+  gap: 40px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  transition: all 0.5s ease-in-out;
+  box-sizing: border-box;
+}
+.trending__list:hover {
+  padding: 40px 0;
+  padding-left: 40px;
+  cursor: pointer;
+}
+.trending__list::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .home {
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .home {
+    padding: 0 16px 61px 16px;
+    box-sizing: border-box;
+  }
+  .trending__list {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .recommended {
+    gap: 24px;
+  }
+  .trending__title {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .trending__list {
+    grid-template-columns: repeat(2, 240px);
+    gap: 15px;
+  }
+}

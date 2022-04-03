@@ -1,0 +1,38 @@
+.App {
+  position: relative;
+  display: flex;
+  gap: 36px;
+  font-family: Poppins, Arial, sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  background-color: #10141e;
+  padding: 32px 0 32px 32px;
+  box-sizing: border-box;
+  /* font smoothing */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* text size adjust to maintain proportionality */
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+
+  /* apply kerning/ligatures to improve legibility (slows performance) */
+  text-rendering: optimizeLegibility;
+}
+
+@media screen and (max-width: 1024px) {
+  .App {
+    flex-direction: column;
+    padding: 24px;
+    gap: 36px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .App {
+    gap: 24px;
+    padding: 0;
+  }
+}
