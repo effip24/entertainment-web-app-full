@@ -12,25 +12,6 @@ The API of "entertainment-web" an entertainment fullstack web app project, featu
 <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_plain_wordmark_logo_icon_146423.png" alt="mongoDB" width="40" height="40"/>
 </p>
 
-#### To run the server
-
-```
-  git clone https://github.com/effip24/entertainment-web-app-api.git
-```
-
-```
-  cd entertainment-web-app-api
-
-```
-
-```
-  npm install
-```
-
-```
-  npm run start
-```
-
 #### Link to the API:
 
 | end point                      | Description                            |
