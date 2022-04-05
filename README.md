@@ -41,7 +41,7 @@ An entertainment fullstack web app project, features movies and tv shows where u
 ```
 
 ```
-  cd react-around-full/backend
+  cd entertainment-web-app-full/backend
 ```
 
 ```
