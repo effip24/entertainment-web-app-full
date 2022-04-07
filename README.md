@@ -4,8 +4,6 @@ An entertainment fullstack web app project, features movies and tv shows where u
 
 #### Live: https://entertainment-app-effip24.netlify.app/
 
-![alt-text](https://i.imgur.com/wQvThd3.gif)
-
 #### Technologies and Techniques
 
 <p align="left"> 
