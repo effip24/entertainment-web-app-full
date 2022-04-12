@@ -2,6 +2,13 @@
 
 An entertainment fullstack web app project, features movies and tv shows where user can save media to it's profile.
 
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Navigate between Home, Movies, TV Series, and Bookmarked Shows pages
+- Add/Remove bookmarks from all movies and TV series
+- Search for relevant shows on all pages
+- full-stack app with authentication screen (sign-up/login)
+
 #### Live: https://entertainment-app-effip24.netlify.app/
 
 #### Technologies and Techniques
@@ -24,9 +31,7 @@ An entertainment fullstack web app project, features movies and tv shows where u
 ```
   BEM, CSS Flexbox and Grid, JavaScript, ReactJS, NodeJs, ExpressJs, Mongodb
 
-  The website is fully responsive and has a design at the following breakpoints
-
-  1024, 768, 425, 320
+  The website is fully responsive.
 ```
 
 ### run the project locally:
