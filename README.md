@@ -2,7 +2,7 @@
 
 An entertainment fullstack web app project, features movies and tv shows where user can save media to it's profile.
 
-Users should be able to:
+Users able to:
 - View the optimal layout for the app depending on their device's screen size
 - See hover states for all interactive elements on the page
 - Navigate between Home, Movies, TV Series, and Bookmarked Shows pages
