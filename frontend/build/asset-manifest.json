@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d4ae92da.css",
+    "main.js": "/static/js/main.b3a3aeb3.js",
+    "static/js/787.05cd2c35.chunk.js": "/static/js/787.05cd2c35.chunk.js",
+    "static/media/Outfit-Regular.ttf": "/static/media/Outfit-Regular.8422587fbc9bbf235e30.ttf",
+    "static/media/favourite.png": "/static/media/favourite.8813493990c7cd1fa4b0.png",
+    "static/media/outfit-variablefont_wght-webfont.woff": "/static/media/outfit-variablefont_wght-webfont.6e5c3907658782ac89c8.woff",
+    "static/media/outfit-variablefont_wght-webfont.woff2": "/static/media/outfit-variablefont_wght-webfont.d69f2e503750f70ad9e8.woff2",
+    "static/media/icon-nav-movies-hover.svg": "/static/media/icon-nav-movies-hover.f2ae48ebdc36cf48f0f6.svg",
+    "static/media/icon-nav-bookmark-hover.svg": "/static/media/icon-nav-bookmark-hover.dccd2b9cc68cefb23a71.svg",
+    "index.html": "/index.html",
+    "static/media/icon-category-movie.svg": "/static/media/icon-category-movie.6861d0ce9036ac864b87.svg",
+    "static/media/icon-nav-home-hover.svg": "/static/media/icon-nav-home-hover.7b2c23d4204ec8d2ac43.svg",
+    "static/media/icon-nav-home-full.svg": "/static/media/icon-nav-home-full.18846d299d5484277fab.svg",
+    "static/media/icon-nav-bookmark.svg": "/static/media/icon-nav-bookmark.a564501ebcbde752ebe0.svg",
+    "static/media/close.svg": "/static/media/close.53b9dc1b9a968bec6ed3670337986a04.svg",
+    "static/media/icon-nav-movies.svg": "/static/media/icon-nav-movies.c347442f9a6fd2201f1a.svg",
+    "static/media/icon-bookmark-full.svg": "/static/media/icon-bookmark-full.361afed00144e45cd54d.svg",
+    "static/media/icon-nav-home.svg": "/static/media/icon-nav-home.8acf660248afc7a27879.svg",
+    "static/media/icon-nav-tv-hober.svg": "/static/media/icon-nav-tv-hober.d230d0bc374d5cd51936.svg",
+    "static/media/icon-search.svg": "/static/media/icon-search.cbc8d670ebd27b023c98.svg",
+    "static/media/logo.svg": "/static/media/logo.7d4aedc9f44f15655a966567c57a1f37.svg",
+    "static/media/icon-category-tv.svg": "/static/media/icon-category-tv.75c9208553d35303e2f1.svg",
+    "static/media/icon-nav-tv-series.svg": "/static/media/icon-nav-tv-series.c22fe1629b446365f6f7.svg",
+    "static/media/icon-seperator.svg": "/static/media/icon-seperator.66b2d08ebe4be363e9b9.svg",
+    "main.d4ae92da.css.map": "/static/css/main.d4ae92da.css.map",
+    "main.b3a3aeb3.js.map": "/static/js/main.b3a3aeb3.js.map",
+    "787.05cd2c35.chunk.js.map": "/static/js/787.05cd2c35.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4ae92da.css",
+    "static/js/main.b3a3aeb3.js"
+  ]
+}
