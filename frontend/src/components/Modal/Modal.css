@@ -61,6 +61,10 @@
   height: 430px;
 }
 
+.modal__trailer {
+  border: 0;
+}
+
 .modal__info-container {
   display: flex;
   max-width: 70%;

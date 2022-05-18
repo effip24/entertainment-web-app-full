@@ -66,7 +66,6 @@ const Card = ({
         </label>
         <i
           className={`card__bookmark ${isSaved ? "card__bookmark_full" : ""}`}
-          alt="bookmark"
           onClick={handleBookmarkClick}
         ></i>
       </div>

@@ -15,7 +15,7 @@ const Navigation = ({ loggedIn }) => {
     <nav className="navigation">
       <ul className="navigation__list">
         <li className="navigation__item">
-          <Link className="navigation__link" to="/">
+          <Link className="navigation__link" to="/" aria-label="main">
             <i
               className={`navigation__icon navigation__icon_type_home ${
                 isHome ? "navigation__icon_home" : ""
@@ -25,7 +25,7 @@ const Navigation = ({ loggedIn }) => {
         </li>
 
         <li className="navigation__item">
-          <Link className="navigation__link" to="/movies">
+          <Link className="navigation__link" to="/movies" aria-label="movies">
             <i
               className={`navigation__icon navigation__icon_type_movies ${
                 isMovies ? "navigation__icon_movies" : ""
@@ -35,7 +35,7 @@ const Navigation = ({ loggedIn }) => {
         </li>
 
         <li className="navigation__item">
-          <Link className="navigation__link" to="/tv">
+          <Link className="navigation__link" to="/tv" aria-label="tv">
             <i
               className={`navigation__icon navigation__icon_type_tv ${
                 isTv ? "navigation__icon_tv" : ""
@@ -46,7 +46,7 @@ const Navigation = ({ loggedIn }) => {
 
         {loggedIn ? (
           <li className="navigation__item">
-            <Link className="navigation__link" to="/saved">
+            <Link className="navigation__link" to="/saved" aria-label="saved">
               <i
                 className={`navigation__icon navigation__icon_type_bookmarked ${
                   isSaved ? "navigation__icon_bookmark" : ""
