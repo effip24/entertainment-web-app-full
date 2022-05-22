@@ -16,8 +16,6 @@ const Modal = ({ card, trailer, isModalOpen, onClose }) => {
         <div className="modal__trailer-wrap">
           <iframe
             className="modal__trailer"
-            width="100"
-            height="100"
             src={`https://www.youtube-nocookie.com/embed/${trailer}`}
           ></iframe>
         </div>

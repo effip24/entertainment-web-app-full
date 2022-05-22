@@ -63,6 +63,8 @@
 
 .modal__trailer {
   border: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .modal__info-container {

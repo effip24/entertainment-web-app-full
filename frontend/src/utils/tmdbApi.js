@@ -4,7 +4,7 @@ class TmdbApi {
    */
   constructor(baseUrl) {
     this._baseUrl = baseUrl;
-    this._apiKey = process.env.TMDB_TOKEN;
+    this._apiKey = process.env;
     this._page = "4";
   }
 
@@ -72,6 +72,6 @@ class TmdbApi {
   }
 }
 
-const tmdbApi = new TmdbApi("https://api.themoviedb.org/3");
+const tmdbApi = new TmdbApi("http://localhost:3000");
 
 export default tmdbApi;

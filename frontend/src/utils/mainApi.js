@@ -82,7 +82,7 @@ class MainApi {
 }
 
 const mainApi = new MainApi({
-  baseUrl: "http://localhost:3000",
+  baseUrl: "https://entertainment-web-app-api.herokuapp.com",
   headers: {
     "Content-Type": "application/json",
     authorization: "",
